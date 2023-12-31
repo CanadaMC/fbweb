@@ -576,3 +576,18 @@
   height: 237px;
   object-fit: cover;
 }
+/* Select all buttons and set the background color to dark green */
+button {
+  background-color: darkgreen;
+  color: white; /* Set text color to white for better visibility */
+  /* Add any other styles you want for the buttons */
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Optionally, you can add a hover effect for better user experience */
+button:hover {
+  background-color: forestgreen; /* Change to a slightly lighter green on hover */
+}
